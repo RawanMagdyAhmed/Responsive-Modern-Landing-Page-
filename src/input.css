@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.sectionHead{
+    @apply font-extrabold text-3xl w-2xl text-center pt-5;
+}
+
+.gridFour{
+    @apply md:grid md:grid-cols-2 justify-center sm:grid sm:grid-cols-1 pt-20 md:w-3xl sm:w-full gap-4 mt-5;
+}
+
+.grayText{
+    @apply text-center w-xl font-light text-gray-500  ;
+}
